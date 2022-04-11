@@ -48,6 +48,7 @@ a {
   transition: all 0.5s ease-in-out;
   font-family: "Allerta Stencil", sans-serif;
 }
+
 a:hover {
   color: #2a4494;
   text-decoration: none;
@@ -178,6 +179,14 @@ a:hover {
   font-weight: medium;
   text-transform: uppercase;
   color: #f2f2f2;
+}
+
+.title-b {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: medium;
+  text-transform: uppercase;
+  color: #2a4494;
 }
 
 .subtitle-a {
@@ -479,6 +488,11 @@ a:hover {
 #header .logo a {
   color: #fff;
 }
+
+#header .logo .sub {
+  color: #2a4494;
+}
+
 #header .logo img {
   max-height: 40px;
 }
@@ -525,6 +539,22 @@ a:hover {
   position: relative;
   text-transform: uppercase;
 }
+
+.navbar .sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #2a4494;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0.4px;
+  position: relative;
+  text-transform: uppercase;
+}
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -554,6 +584,13 @@ a:hover {
 .navbar .active:focus,
 .navbar li:hover > a {
   color: #fff;
+}
+
+.navbar .sub:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #ffffff;
 }
 .navbar .dropdown ul {
   display: block;
@@ -739,6 +776,13 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
+
+.hero .hero-title-sub {
+  color: #2a4494;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
 @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 4.5rem;
@@ -777,13 +821,17 @@ a:hover {
   color: #2a4494;
 }
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #175dae;
 }
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #175dae;
 }
 .hero-single .breadcrumb a {
   color: #fff;
+}
+
+.hero-single .breadcrumb .sub {
+  color: #2a4494;
 }
 
 /*--------------------------------------------------------------
